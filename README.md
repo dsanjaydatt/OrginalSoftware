@@ -6,3 +6,5 @@ Documentation of Software also included.
 Requirements:
 1.Python 3.x
 2.Mysql(MariaDB)
+
+Copyright IIT,HYDERABAD
