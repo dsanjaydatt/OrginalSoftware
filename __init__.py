@@ -40,8 +40,6 @@ sys.path.insert(0,newpath)
 newpath = mypath+"/pyfiles/portal"
 sys.path.insert(0,newpath)
 
-
-
 import registration as reg
 import outvisit as opd
 import ipd as ipd
@@ -4272,5 +4270,5 @@ def updateNurTherapy():
 ############################# Nursery Ends ################################################################################################################################################################################################################################################
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=5030,debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
