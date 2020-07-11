@@ -1319,18 +1319,18 @@ def ANCSearchHb(anchb):
         sheet.write(0,9,"RELATIVE'S MIDDLE NAME",cell_format)
         sheet.write(0,10,"RELATIVE'S SURNAME",cell_format)
         sheet.write(0,11,"EDUCATION",cell_format)
-    	sheet.write(0,12,"REG.DATE",cell_format)
-    	sheet.write(0,13,"ADDRESS",cell_format)
-    	sheet.write(0,14,"ANC VISIT DATE",cell_format)
-    	sheet.write(0,15,"HAEMOGLOBIN",cell_format)
-    	sheet.write(0,16,"BLOOD GROUP",cell_format)
-    	sheet.write(0,17,"SICKLING",cell_format)
-    	sheet.write(0,18,"THYROID",cell_format)
+        sheet.write(0,12,"REG.DATE",cell_format)
+        sheet.write(0,13,"ADDRESS",cell_format)
+        sheet.write(0,14,"ANC VISIT DATE",cell_format)
+        sheet.write(0,15,"HAEMOGLOBIN",cell_format)
+        sheet.write(0,16,"BLOOD GROUP",cell_format)
+        sheet.write(0,17,"SICKLING",cell_format)
+        sheet.write(0,18,"THYROID",cell_format)
 
         for r, row in enumerate(w):
             for c, col in enumerate(row):
                 sheet.write(r+1, c, col)
-    	workbook.close()
+        workbook.close()
         return w
     except Exception as e:
         return str(e)
