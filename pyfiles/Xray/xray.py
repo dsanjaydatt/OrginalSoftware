@@ -1,6 +1,6 @@
 from xlsxwriter.workbook import Workbook
 import datetime
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 import adminstuff as adm
 import updatedata as up
 import insertdata as ins

@@ -1,6 +1,6 @@
 from flask import request,url_for,json,jsonify
 from mysql.connector import Error
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 import os,sys
 import db_conf as con
 import insertdata as ins
